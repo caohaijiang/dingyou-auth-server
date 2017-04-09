@@ -1,7 +1,7 @@
 {
     "env":"develop",
     "apiUrl":"https://oapi.dingtalk.com",
-    "corpId": "ding8770e1004a278de3",
-    "corpsecret": "RKBPMVVuKe6C6Mc4bATC6_iSqFkwhSAqGr7sKiwSI_5V6y1TBwCBXrRS3BOWNJwW",
-    "agentId": "48173281"
+    "corpId": "dinga04ad0aa6f805b3435c2f4657eb6378f",
+    "corpsecret": "TxXQNoFTZmdYhaMqpboEF3o40dZinAPYdZpgGvgVG62MYdbrhFP7jd0HSu2yOgq5",
+    "agentId": "81241444"
 }
