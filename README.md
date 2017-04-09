@@ -2,6 +2,17 @@
 这是 dingtalk jsapi 的鉴权服务demo
 
 # 如何使用?
+```
+sudo mkdir -pv /appServer/myproj && cd /appServer/myproj
+sudo git clone https://github.com/caohaijiang/dingyou-auth-server.git ./authServer && cd authServer
+sudo cp -R dingyou-auth-server/ ./authServer 
+sudo cnpm install 
+sudo chmod +x ./install.sh
+sudo ./install.sh
+
+
+
+```
 
 ## 设置环境(centos 7)
 ```
