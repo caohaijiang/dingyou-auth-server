@@ -1,0 +1,39 @@
+{
+  "name": "dingyou-auth-server",
+  "version": "0.5.0",
+  "description": "This is a jsapi authentication server for dingtalk",
+  "dependencies": {
+    "babel-core": "6.13.2",
+    "babel-polyfill": "6.13.0",
+    "babel-preset-es2015-node6": "0.3.0",
+    "babel-preset-stage-3": "6.5.0",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "3.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.1.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "test": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caohaijiang/dingyou-auth-server.git"
+  },
+  "keywords": [
+    "dingtalk",
+    "jsapi",
+    "dingyou"
+  ],
+  "author": "caohaijiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caohaijiang/dingyou-auth-server/issues"
+  },
+  "homepage": "https://github.com/caohaijiang/dingyou-auth-server#readme"
+}
