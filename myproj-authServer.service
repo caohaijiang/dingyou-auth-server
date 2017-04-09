@@ -4,6 +4,7 @@ After=network.target
 After=syslog.target
 
 [Service]
+Environment="NODE_ENV=test"
 Type=forking
 ExecStart=/usr/local/bin/forever -a start -l /appServer/myproj/authServer/forever.log /appServer/myproj/authServer/start.js
 ExecReload=/usr/local/bin/forever restart /appServer/myproj/authServer/start.js
