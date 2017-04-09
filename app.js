@@ -17,5 +17,5 @@ app.use(bodyParser());// 解析原始request的body参数:
 app.use(rest.restify()); // 绑定 rest() 到ctx对象:
 app.use(controller()); // 添加控制器 ( controllers ),创建api访问路由:
 
-app.listen(3001); // 监听端口
-console.log('app started at port 3001...');
+app.listen(30001); // 监听端口
+console.log('app started at port 30001...');
