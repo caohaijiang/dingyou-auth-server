@@ -1,0 +1,14 @@
+[Unit]
+Description=myproj-authServer
+After=network.target
+After=syslog.target
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/forever -a start -l /appServer/myproj/authServer/forever.log /appServer/myproj/authServer/index.js
+ExecReload=/usr/local/bin/forever restart /appServer/myproj/authServer/index.js
+ExecStop=/usr/local/bin/forever stop /appServer/myproj/authServer/index.js
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
